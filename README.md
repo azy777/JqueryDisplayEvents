@@ -19,10 +19,12 @@ Usage :
 $('*').displayEvents()
 
 // Lists event handlers of div.wrapper.
-$('.wrapper').displayEvents()
+
+	$('.wrapper').displayEvents()
 
 // List all elements within the wrapper div with event handlers.
-$('.wrapper *').displayEvents({ 'mode' : 'console' });
+
+	$('.wrapper *').displayEvents({ 'mode' : 'console' });
 
 Parameters :
 
