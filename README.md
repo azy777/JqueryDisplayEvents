@@ -35,10 +35,12 @@ Values : html , console
 
 	 1 - console : Displays element and event list on the browser console.
 	 2 - html : Appends element and event list to the body tag of the page.
-<code>
+	 
 eg: $('*').displayEvents({ 'mode' : 'html' });
+
     $('*').displayEvents({ 'mode' : 'console' });
+    
     $('.wrapper').displayEvents({ 'mode' : 'console' });
-    </code>
+
 
 
