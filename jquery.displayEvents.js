@@ -1,11 +1,11 @@
-// Jquery displayEvents Plugin  |  Author: Abdul Aziz | @azy777 
+// Jquery displayEvents Plugin  |  Author: Abdul Azeez | @azy777 
 
 // Jquery Extension to display bound events
 
 (function($){
     $.fn.displayEvents = function(options)
     {
-        return this.each(function(i)
+        return this.each(function(i)   // For each element specified 
         {
             // Create defaults , extending them as required 
 
@@ -40,6 +40,7 @@
             }
 
             // check the opt.mode for view mode - html or console and display handlers .
+            // If html, the events are displayed on the page .
 
             if(opt.mode === 'html' || typeof(console) == 'undefined'){
 
@@ -57,7 +58,9 @@
             
             $('body').append(htmlOp);
 
-            } else if(opt.mode === 'console'){
+            // If console mode, Add code to the console .
+                
+            } else if(opt.mode === 'console'){ 
                 $.each(dEvents, function(name, handler)
                 {
                     $.each(handler, function(i,handler)
