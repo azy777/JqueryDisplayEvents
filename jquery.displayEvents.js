@@ -1,4 +1,4 @@
-// Jquery displayEvents Plugin  |  Author: Abdul Aziz | @azy777 
+// Jquery displayEvents Plugin  |  Author: Abdul Azeez | @azy777 
 
 // Jquery Extension to display bound events
 
